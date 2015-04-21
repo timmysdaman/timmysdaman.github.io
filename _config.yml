@@ -1,0 +1,28 @@
+# Site settings
+title: "Talk Nerdy To Me"
+description: "Random Musings on Lots of Technical Stuff"
+url: http://timmysdaman.github.io/"
+author:
+  name: "Timothy Felch"
+  url: "http://timmysdaman.github.io/"
+
+# Build settings
+baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
+markdown: kramdown
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 8
+paginate_path: /page:num/
+
+# Default values
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Custom variables
+version: "1.0.1"
