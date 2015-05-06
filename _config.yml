@@ -1,13 +1,13 @@
 # Site settings
 title: "Talk Nerdy To Me"
 description: "Random Musings on Lots of Technical Stuff"
-url: http://timmysdaman.github.io/"
+url: http://localhost:4000
 author:
   name: "Timothy Felch"
   url: "http://timmysdaman.github.io/"
 
 # Build settings
-baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
+baseurl: "" # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: kramdown
 source: .
 destination: ./_site
